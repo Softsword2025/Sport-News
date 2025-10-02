@@ -1,49 +1,74 @@
-![Logo](src/assets/logo.png)
-
 Sport News
 
-Sport News is a modern web project built with Vite and TypeScript, designed to provide a fast and dynamic platform for displaying sports news.
+![Logo](src/assets/logo.png)
+
+Sport News is a modern web application built with Vite and TypeScript, providing a fast and dynamic platform to showcase sports news.
+
+---
 
 Getting Started
 
 Prerequisites
 
-* Node.js version 16 or higher
-* npm or Yarn
+Before you begin, ensure you have:
+
+- Node.js v16 or higher
+- npm or Yarn installed
 
 Installation
 
-$ git clone [https://github.com/Softsword2025/Sport-News.git](https://github.com/Softsword2025/Sport-News.git)
-$ cd Sport-News
-$ npm install
-$ npm run dev
+Clone the repository and install dependencies:
 
-The project will be available at [http://localhost:3000](http://localhost:3000).
+git clone https://github.com/Softsword2025/Sport-News.git
+cd Sport-News
+npm install
 
-![Screenshot](public/news(20%).png)
+Start the development server:
+
+npm run dev
+
+Your application will be available at: https://sport-news-blush-nine.vercel.app
+
+---
+
 Project Structure
 
-* public/
-* src/
+Sport-News/
+│
+├── public/          # Static assets (images, icons, etc.)
+├── src/
+│   ├── assets/      # Images, logos
+│   ├── components/  # Reusable React components
+│   ├── pages/       # Page components
+│   └── styles/      # CSS / Tailwind styles
+└── package.json
 
-  * components/
-  * pages/
-  * assets/
-  * styles/
+---
 
 Scripts
 
-* npm run dev - start development server
-* npm run build - build production version
-* npm run preview - preview production build
+Command              | Description
+---------------------|------------------------------------
+npm run dev           | Start development server
+npm run build         | Build production version
+npm run preview       | Preview production build
+
+---
+
+Screenshots
+
+![News Page](public/news.png)
+![News Page](public/newss.png)
+
+
+---
 
 Contributing
-Contributions are welcome. Please fork the repository and create a pull request.
+
+Contributions are welcome! Please fork the repository and submit a pull request for any enhancements or bug fixes.
+
+---
 
 License
+
 This project is licensed under the MIT License.
-
-
-
-
-
