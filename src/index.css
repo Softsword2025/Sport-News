@@ -1,0 +1,56 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+
+#root {
+    overflow-x: hidden;
+}
+
+
+@theme {
+  --background-image-login: url('/Login.png');
+}
+
+@layer utilities {
+  .text-microResponsive {
+    font-size: clamp(0.3rem, 0.6vw, 0.7rem);
+  }
+  .text-gsmResponsive {
+    font-size: clamp(0.35rem, 0.85vw, 0.85rem);
+  }
+  .text-ssmResponsive{
+    font-size: clamp(0.4rem, 1vw, 0.9rem);
+  }
+  .text-smResponsive {
+    font-size: clamp(0.6rem, 1.2vw, 1.15rem);
+  }
+  .text-mdResponsive {
+    font-size: clamp(0.8rem, 1.4vw, 1.3rem);
+  }
+  .text-lgResponsive {
+    font-size: clamp(0.4rem, 1.6vw, 1.5rem);
+  }
+  .text-slgResponsive {
+    font-size: clamp(1rem, 3vw, 1.8rem);
+  }
+  .text-glgResponsive {
+    font-size: clamp(1.2rem, 3.5vw, 5rem);
+  }
+
+
+    .animate-scrollNews {
+    animation: scrollNews 30s linear infinite;
+  }
+
+  .group-hover\:animation-paused:hover {
+    animation-play-state: paused;
+  }
+    @keyframes scrollNews {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-50%);
+    }
+  }
+}
