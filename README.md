@@ -19,7 +19,8 @@ $ npm install
 $ npm run dev
 
 The project will be available at [http://localhost:3000](http://localhost:3000).
-![Screenshot](public/news.png)
+
+![Screenshot](public/news(20%).png)
 Project Structure
 
 * public/
@@ -41,6 +42,7 @@ Contributions are welcome. Please fork the repository and create a pull request.
 
 License
 This project is licensed under the MIT License.
+
 
 
 
