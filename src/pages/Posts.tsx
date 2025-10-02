@@ -122,13 +122,13 @@ const Post: React.FC = () => {
         </div>
       </div>
 
-      <div className="middle-content grid grid-cols-12 gap-4 w-full max-w-7xl mt-6">
+      <div className="grid grid-cols-12 gap-4 w-full max-w-7xl mt-6 left-[0.2vw]">
         <div className="clothes col-span-3 flex flex-col gap-4 self-end">
           <MiniOffers item="/shirt.png" price="$12.99" off="30% off" itemName="Barcelona black kit" time="on 10 july"/>
           <MiniOffers item="/shirt.png" price="$12.99" off="30% off" itemName="Barcelona black kit" time="on 10 july"/>
         </div>
 
-        <div className="balls col-span-3 col-start-10 flex flex-col gap-4 self-end">
+        <div className="col-span-3 col-start-10 flex flex-col gap-4 self-end right-[0.2vw]">
           <MiniOffers item="/Ball.png" price="$12.99" off="50% off" itemName="Champions League Ball" time="23/24"/>
           <MiniOffers item="/Ball.png" price="$12.99" off="50% off" itemName="Champions League Ball" time="23/24"/>
         </div>
