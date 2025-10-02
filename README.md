@@ -1,3 +1,5 @@
+![Logo](src/assets/logo.png)
+
 Sport News
 
 Sport News is a modern web project built with Vite and TypeScript, designed to provide a fast and dynamic platform for displaying sports news.
@@ -17,7 +19,7 @@ $ npm install
 $ npm run dev
 
 The project will be available at [http://localhost:3000](http://localhost:3000).
-
+![Screenshot](https://example.com/screenshot.png)
 Project Structure
 
 * public/
@@ -39,3 +41,4 @@ Contributions are welcome. Please fork the repository and create a pull request.
 
 License
 This project is licensed under the MIT License.
+
