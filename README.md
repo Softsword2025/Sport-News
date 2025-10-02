@@ -19,7 +19,7 @@ $ npm install
 $ npm run dev
 
 The project will be available at [http://localhost:3000](http://localhost:3000).
-![Screenshot](https://example.com/screenshot.png)
+![Screenshot](/public/screenshot (5).png)
 Project Structure
 
 * public/
@@ -41,4 +41,5 @@ Contributions are welcome. Please fork the repository and create a pull request.
 
 License
 This project is licensed under the MIT License.
+
 
