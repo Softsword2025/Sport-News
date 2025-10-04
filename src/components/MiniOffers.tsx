@@ -8,9 +8,9 @@ interface OffersProps {
 
 const Offers: React.FC<OffersProps> = ({ item, price, itemName, time, off }) => {
   return (
-    <div className="w-full flex flex-col items-center bg-white py-[2vh] px-[1vw] rounded-lg shadow">
+    <div className="w-[99%] flex flex-col items-center bg-white py-[2vh] px-[1vw] rounded-lg shadow">
       {/* Image */}
-      <img src={item} alt={itemName} className="w-40 h-auto object-contain" />
+      <img src={item} alt={itemName} className="h-[20vh] w-auto object-contain" />
 
       {/* Text */}
       <div className="text-center mt-[1vh]">
