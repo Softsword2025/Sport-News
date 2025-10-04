@@ -22,7 +22,7 @@ const Thumbnail: React.FC<ThumbnailProps> = ({ srcTH, srcThCh, GBperMonth, FreeD
       />
 
       {/* Grid Overlay */}
-      <div className="absolute inset-0 z-15 grid grid-rows-[1fr_auto] text-white p-[1vh] mr-[45vw]">
+      <div className="absolute inset-0 grid grid-rows-[1fr_auto] text-white p-[1vh] mr-[45vw]">
         {/* Row 1 → 3 columns */}
         <div className="grid grid-cols-3 gap-4">
           <div className="flex flex-col items-center justify-center">
