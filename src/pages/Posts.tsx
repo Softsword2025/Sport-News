@@ -96,7 +96,7 @@ const Post: React.FC = () => {
           </div>
         </div>
 
-        <div className="-mt-19 col-span-6 flex flex-col justify-center">
+        <div className="col-span-6 flex flex-col justify-center">
           <NewsPosts
             title="Liverpool Stuns Barcelona in Thrilling Comeback"
             mainImage="/p6.jpg"
