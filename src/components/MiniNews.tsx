@@ -26,8 +26,8 @@ const MiniNews: React.FC<MiniNewsProps> = ({
 
   return (
     <div
-      className={`grid grid-cols-[auto_1fr] gap-[0.5vw] px-[0.5vw] py-[0.5vh] rounded transition-colors duration-300
-        w-[clamp(20vw,23.5vw,30vw)]
+      className={`flex flex-cols-[auto_1fr] gap-[0.5vw] px-[0.5vw] py-[0.5vh] -mr-[2vw] rounded transition-colors duration-300
+        w-full
         bg-cover
         ${darkMode ? "bg-gray-800 text-white" : "bg-white text-black"}`}
     >
