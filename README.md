@@ -34,13 +34,13 @@ Your application will be available at: https://sport-news-blush-nine.vercel.app
 Project Structure
 
 Sport-News/
-│
+
 ├── public/          # Static assets (images, icons, etc.)
 ├── src/
-│   ├── assets/      # Images, logos
-│   ├── components/  # Reusable React components
-│   ├── pages/       # Page components
-│   └── styles/      # CSS / Tailwind styles
+    ├── assets/      # Images, logos
+    ├── components/  # Reusable React components
+    ├── pages/       # Page components
+    └── styles/      # CSS / Tailwind styles
 └── package.json
 
 ---
@@ -73,4 +73,5 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 License
 
 This project is licensed under the MIT License.
+
 
