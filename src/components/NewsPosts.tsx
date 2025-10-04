@@ -1,4 +1,3 @@
-// NewsPosts.tsx
 import React from "react";
 import { User, Eye, Share2, Edit2 } from "lucide-react";
 
