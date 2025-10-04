@@ -49,6 +49,7 @@ Scripts
 
 Command              | Description
 ---------------------|------------------------------------
+npm install           | install packages and dependencies
 npm run dev           | Start development server
 npm run build         | Build production version
 npm run preview       | Preview production build
@@ -72,3 +73,4 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 License
 
 This project is licensed under the MIT License.
+
