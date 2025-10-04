@@ -38,7 +38,7 @@ const Header = () => {
                              transition-all duration-300 ease-out
                              z-10
                              ${darkMode ? "bg-gray-800 text-white" : "bg-white text-black"}`}>
-              <ul className="py-2">
+              <ul className="py-2 z-50">
                 <li><a href="#" className="block px-4 py-2 hover:bg-gray-700 hover:text-white transition">Latest</a></li>
                 <li><a href="#" className="block px-4 py-2 hover:bg-gray-700 hover:text-white transition">Popular</a></li>
                 <li><a href="#" className="block px-4 py-2 hover:bg-gray-700 hover:text-white transition">Archive</a></li>
@@ -58,7 +58,7 @@ const Header = () => {
                              transition-all duration-300 ease-out
                              z-10
                              ${darkMode ? "bg-gray-800 text-white" : "bg-white text-black"}`}>
-              <ul className="py-2">
+              <ul className="py-2 z-50">
                 <li><a href="#" className="block px-4 py-2 hover:bg-gray-700 hover:text-white transition">Upcoming</a></li>
                 <li><a href="#" className="block px-4 py-2 hover:bg-gray-700 hover:text-white transition">Results</a></li>
               </ul>
@@ -77,7 +77,7 @@ const Header = () => {
                              transition-all duration-300 ease-out
                              z-10
                              ${darkMode ? "bg-gray-800 text-white" : "bg-white text-black"}`}>
-              <ul className="py-2">
+              <ul className="py-2 z-50">
                 <li><a href="#" className="block px-4 py-2 hover:bg-gray-700 hover:text-white transition">Barcelona</a></li>
                 <li><a href="#" className="block px-4 py-2 hover:bg-gray-700 hover:text-white transition">Juventus</a></li>
                 <li><a href="#" className="block px-4 py-2 hover:bg-gray-700 hover:text-white transition">Manchester City</a></li>
