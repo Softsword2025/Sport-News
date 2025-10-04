@@ -84,12 +84,12 @@ const TopBN = () => {
   const repeatedLatest = [...latestNews, ...latestNews]
 
   return (
-    <div className={` flex flex-row gap-1 p-2 ${darkMode ? "bg-gray-900 text-white" : "bg-white text-black rounded-[20px]" }`}>
+    <div className={` flex flex-row gap-[0.5vw] px-[1vw] py-[1vh] w-[60vw] ${darkMode ? "bg-gray-900 text-white" : "bg-white text-black rounded-[20px]" }`}>
       {/* Breaking News */}
       <div className="flex flex-col items-start w-[35vw] p-2">
         <p className="font-bold text-slgResponsive mb-6">Breaking News</p>
-        <div className="overflow-hidden relative w-full h-80 group">
-          <div className="flex flex-col gap-4 animate-scrollNews group-hover:animation-paused">
+        <div className="overflow-hidden relative w-full h-[36vh] group">
+          <div className="flex flex-col gap-[1.5vh] animate-scrollNews group-hover:animation-paused">
             {repeatedBreaking.map((news, idx) => (
               <MiniNews
                 key={idx}
@@ -99,7 +99,7 @@ const TopBN = () => {
                 shares={news.shares}
                 author={news.author}
                 w1="w-[10vw]"
-                w2="w-[full"
+                w2="w-full"
               />
             ))}
           </div>
@@ -109,8 +109,8 @@ const TopBN = () => {
       {/* Latest News */}
       <div className="flex flex-col items-start w-[35vw] p-2">
         <p className="font-bold text-slgResponsive mb-6">Latest News</p>
-        <div className="overflow-hidden relative w-full h-80 group">
-          <div className="flex flex-col gap-4 animate-scrollNews group-hover:animation-paused">
+        <div className="overflow-hidden relative w-full h-[36vh] group">
+          <div className="flex flex-col gap-[1.5vh] animate-scrollNews group-hover:animation-paused">
             {repeatedLatest.map((news, idx) => (
               <MiniNews
                 key={idx + repeatedBreaking.length}
