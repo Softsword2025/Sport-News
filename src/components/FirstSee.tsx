@@ -26,8 +26,7 @@ const FirstSee: React.FC<FirstSeeProps> = ({ srcBack, srcCH, srcCE, widthch }) =
       <img
         src={srcCH}
         alt="Character"
-        style={{width:widthch}}
-        className="absolute bottom-0 right-0 max-w-[700px] object-contain"
+        className={`absolute bottom-0 right-0 max-h-[90vh] object-contain w-[${widthch}]`}
       />
     </div>
   )
